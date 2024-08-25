@@ -4,6 +4,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import React from "react";
 
+import Script from 'next/script';
 import NavBar from "../components/NavBar";
 import theme from "../theme";
 
