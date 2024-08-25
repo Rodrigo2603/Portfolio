@@ -21,7 +21,6 @@ function App({ Component, pageProps }) {
     "/": "Rodrigo Rocha - Desenvolvedor Full Stack",
   };
 
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DT8FV1T0WD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
