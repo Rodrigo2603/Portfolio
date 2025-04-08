@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="bg-zinc-800 rounded-xl p-6 shadow-lg relative">
             <h3 className="text-xl font-semibold text-white">Projeto Exemplo</h3>
             <p className="text-sm text-gray-400 mt-2">
-                Refatorei meu portfolio, esse e outros projetos seram acrescentados assim que possível
+                Refatorei meu portfolio, esse e outros projetos serão acrescentados assim que possível.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-4">
