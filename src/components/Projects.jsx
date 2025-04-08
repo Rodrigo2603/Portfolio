@@ -1,5 +1,6 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
+import projetoImg from '../assets/projeto-exemplo.png';
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
           {/* Card de Projeto Exemplo */}
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <img
-              src="/images/projeto-exemplo.png"
+              src={projetoImg}
               alt="Projeto Exemplo"
               className="w-full h-48 object-cover"
             />
