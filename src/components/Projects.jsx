@@ -17,7 +17,7 @@ const Projects = () => {
               className="w-full h-48 object-cover"
             />
             <div className="bg-zinc-800 rounded-xl p-6 shadow-lg relative">
-            <h3 className="text-xl font-semibold text-white">Projeto Exemplo</h3>
+            <h3 className="text-xl font-semibold text-white">Gerenciador de Estoque</h3>
             <p className="text-sm text-gray-400 mt-2">
                 API para gerenciamento de estoque. Em desenvolvimento...
             </p>
