@@ -13,28 +13,25 @@ const Projects = () => {
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <img
               src={projetoImg}
-              alt="Projeto Exemplo"
+              alt="Gerenciador de Estoque"
               className="w-full h-48 object-cover"
             />
             <div className="bg-zinc-800 rounded-xl p-6 shadow-lg relative">
             <h3 className="text-xl font-semibold text-white">Projeto Exemplo</h3>
             <p className="text-sm text-gray-400 mt-2">
-                Refatorei meu portfolio, esse e outros projetos serão acrescentados assim que possível.
+                API para gerenciamento de estoque. Em desenvolvimento...
             </p>
 
             <div className="flex flex-wrap gap-2 mt-4">
-                <span className="bg-blue-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
-                {/*React*/}
-                </span>
                 <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
-                {/*Node.js*/}
+                .NET
                 </span>
                 <span className="bg-yellow-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
-                {/*PostgreSQL*/}
+                PostgreSQL
                 </span>
             </div>
             <a
-                href="https://github.com/seu-usuario/seu-repo"
+                href="https://github.com/Rodrigo2603/StockManager"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute bottom-4 right-4 text-blue-400 hover:text-blue-500"
