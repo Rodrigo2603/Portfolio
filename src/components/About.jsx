@@ -9,7 +9,7 @@ const About = () => {
               Sobre mim
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed">
-                Engenheiro de Software formado em Ciência da Computação pela UNIOESTE, com experiência em desenvolvimento fullstack. Crio aplicações web completas, desde a arquitetura backend até a interface frontend, com integração a bancos de dados e autenticação segura.
+                Engenheiro de Software formado em Ciência da Computação pela UNIOESTE, com experiência em desenvolvimento fullstack (foco em backend). Crio aplicações completas, desde a arquitetura backend até a interface frontend, com integração a bancos de dados e autenticação segura.
             </p>
           </div>
 
@@ -19,13 +19,13 @@ const About = () => {
               <h3 className="text-xl font-semibold text-blue-400 mb-1">Tecnologias</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-1">
                 <li>
-                  <span className="font-semibold text-blue-300">Frontend:</span> React, Tailwind CSS, HTML5, CSS3
+                  <span className="font-semibold text-blue-300">Frontend:</span> React, HTML5, CSS3
                 </li>
                 <li>
-                  <span className="font-semibold text-blue-300">Backend:</span> Node.js (Express), Java, .NET (C#)
+                  <span className="font-semibold text-blue-300">Backend:</span> Node.js (Express), Java, .NET (C#), Python
                 </li>
                 <li>
-                  <span className="font-semibold text-blue-300">Banco de Dados:</span> PostgreSQL, Sequelize
+                  <span className="font-semibold text-blue-300">Banco de Dados:</span> PostgreSQL, MySQL
                 </li>
                 <li>
                   <span className="font-semibold text-blue-300">Outros:</span> Git, GitHub, RESTful APIs
