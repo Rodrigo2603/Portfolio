@@ -1,6 +1,6 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
-import projetoImg from '../assets/projeto-exemplo.png';
+import taskImg from '../assets/taskmanager.png';
 
 const Projects = () => {
   return (
@@ -12,26 +12,29 @@ const Projects = () => {
           {/* Card de Projeto Exemplo */}
           <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
             <img
-              src={projetoImg}
-              alt="Gerenciador de Estoque"
+              src={taskImg}
+              alt="Task Manager"
               className="w-full h-48 object-cover"
             />
             <div className="bg-zinc-800 rounded-xl p-6 shadow-lg relative">
-            <h3 className="text-xl font-semibold text-white">Gerenciador de Estoque</h3>
+            <h3 className="text-xl font-semibold text-white">Task Manager</h3>
             <p className="text-sm text-gray-400 mt-2">
-                API para gerenciamento de estoque. Em desenvolvimento...
+                A task manager for tracking your tasks.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-4">
-                <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
-                .NET
-                </span>
                 <span className="bg-yellow-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
-                PostgreSQL
+                TypeScript
+                </span>
+                <span className="bg-blue-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
+                React
+                </span>
+                <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
+                Tailwind
                 </span>
             </div>
             <a
-                href="https://github.com/Rodrigo2603/StockManager"
+                href="https://taskflowmanager.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute bottom-4 right-4 text-blue-400 hover:text-blue-500"
