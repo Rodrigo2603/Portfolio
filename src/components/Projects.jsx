@@ -1,6 +1,7 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
 import taskImg from '../assets/taskmanager.png';
+import stockImg from '../assets/stockmanager.png'
 
 const Projects = () => {
   return (
@@ -19,7 +20,7 @@ const Projects = () => {
             <div className="bg-zinc-800 rounded-xl p-6 shadow-lg relative">
             <h3 className="text-xl font-semibold text-white">Task Manager</h3>
             <p className="text-sm text-gray-400 mt-2">
-                A task manager for tracking your tasks.
+                A task manager for tracking your tasks
             </p>
 
             <div className="flex flex-wrap gap-2 mt-4">
@@ -35,6 +36,37 @@ const Projects = () => {
             </div>
             <a
                 href="https://taskflowmanager.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-4 right-4 text-blue-400 hover:text-blue-500"
+            >
+                <ExternalLink size={18} />
+            </a>
+            </div>
+          </div>
+
+          <div className="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+            <img
+              src={stockImg}
+              alt="Stock Manager"
+              className="w-full h-48 object-cover"
+            />
+            <div className="bg-zinc-800 rounded-xl p-6 shadow-lg relative">
+            <h3 className="text-xl font-semibold text-white">Stock Manager</h3>
+            <p className="text-sm text-gray-400 mt-2">
+                A stock manager to manage categories, products and selling products
+            </p>
+
+            <div className="flex flex-wrap gap-2 mt-4">
+                <span className="bg-green-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
+                .NET (C#)
+                </span>
+                <span className="bg-blue-600 text-white text-xs px-3 py-1 rounded-full shadow-sm font-medium">
+                PostgreSQL
+                </span>
+            </div>
+            <a
+                href="https://github.com/Rodrigo2603/StockManager"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute bottom-4 right-4 text-blue-400 hover:text-blue-500"
